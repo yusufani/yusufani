@@ -33,7 +33,7 @@ public class PersonelSceneController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         Personel personel = VeriTabani.ps;
-        personelName.setText("Giriþ Yapan Personel: " + personel.getIsim() + " " + personel.getSoyisim());
+        personelName.setText("Giri? Yapan Personel: " + personel.getIsim() + " " + personel.getSoyisim());
         personelID.setText("ID: " + personel.getId());
         memnuniyetGoster();
         aletDolulukGoster();
@@ -44,7 +44,7 @@ public class PersonelSceneController implements Initializable {
         ObservableList<PieChart.Data> pieChartData =
                 FXCollections.observableArrayList(
                         new PieChart.Data("Memnun",mem),
-                        new PieChart.Data("Memnun Deðil",5-mem)
+                        new PieChart.Data("Memnun De?il",5-mem)
                 );
         memnuniyetPie.setData(pieChartData);
         System.out.println(mem);
@@ -69,7 +69,7 @@ public class PersonelSceneController implements Initializable {
     public void musteriEkleEkrani(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("MusteriEklemeScene.fxml"));
         Stage stage = new Stage();
-        stage.setTitle("Müþteri Ekleme");
+        stage.setTitle("M??teri Ekleme");
         stage.setScene(new Scene(root));
         stage.initOwner((Stage) ((Node) event.getSource()).getScene().getWindow());
         stage.initModality(Modality.APPLICATION_MODAL);

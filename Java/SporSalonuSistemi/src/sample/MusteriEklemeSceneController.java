@@ -34,7 +34,7 @@ public class MusteriEklemeSceneController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        cinsiyet.getItems().addAll("Erkek","Kadýn");
+        cinsiyet.getItems().addAll("Erkek","Kad?n");
         cinsiyet.setValue("Erkek");
         tabloGoruntule();
     }
@@ -46,7 +46,7 @@ public class MusteriEklemeSceneController implements Initializable {
         if(cinsiyet.getValue().equals("Erkek")){
             c = 0;
         }
-        else if(cinsiyet.getValue().equals("Kadýn")){
+        else if(cinsiyet.getValue().equals("Kad?n")){
             c = 1;
         }
         Musteri musteri = new Musteri(ad.getText(),soyad.getText(),sifre.getText(),cinsiyet.getValue());
@@ -71,12 +71,12 @@ public class MusteriEklemeSceneController implements Initializable {
         TableColumn<Musteri,Integer> idT = new TableColumn<>("ID");
         TableColumn<Musteri,String> adT = new TableColumn<>("Ad");
         TableColumn<Musteri,String> soyadT = new TableColumn<>("Soyad");
-        TableColumn<Musteri,String> sifreT = new TableColumn<>("Þifre");
+        TableColumn<Musteri,String> sifreT = new TableColumn<>("?ifre");
         TableColumn<Musteri,String> cinsiyetT = new TableColumn<>("Cinsiyet");
-        TableColumn<Musteri,String> kutleT = new TableColumn<>("Kütle(KG)");
+        TableColumn<Musteri,String> kutleT = new TableColumn<>("K?tle(KG)");
         TableColumn<Musteri,String> boyT = new TableColumn<>("Boy(CM)");
-        TableColumn<Musteri,String> kasOraniT = new TableColumn<>("Kas Oraný (%)");
-        TableColumn<Musteri,String> yagOraniT = new TableColumn<>("Yað Oraný (%)");
+        TableColumn<Musteri,String> kasOraniT = new TableColumn<>("Kas Oran? (%)");
+        TableColumn<Musteri,String> yagOraniT = new TableColumn<>("Ya? Oran? (%)");
 
 
         idT.setCellValueFactory(new PropertyValueFactory<>("id"));

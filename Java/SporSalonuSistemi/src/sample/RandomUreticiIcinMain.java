@@ -1,3 +1,4 @@
+package sample;
 public class RandomUreticiIcinMain {
 	public static void main(String[] args) {
 		RandomUretici r=new RandomUretici();

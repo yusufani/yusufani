@@ -1,19 +1,12 @@
 package sample;
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
+
 import java.util.HashMap;
 import java.util.Random;
 
-public class Musteri extends Person {
+public class Musteri extends Person{
     private String [] hareketler;
-    private int[] gunSaatleri;
-
-    public int[] getGunSaatleri() {
-        return gunSaatleri;
-    }
-
-    public void setGunSaatleri(int[] gunSaatleri) {
-        this.gunSaatleri = gunSaatleri;
-    }
-
     private int boy,memnuniyet;
     private int []dersProgrami;
     private double kasOrani,kutle,yagOrani;
@@ -100,26 +93,26 @@ public class Musteri extends Person {
     }
 
     public String[] hareketProgramiOlustur(int gunSayisi){ //
-        /*Input: Musterinin spor salonuna geleceği gun sayısı
-        Output: Musterinin hareketlerini içeren String dizisi
+        /*Input: Musterinin spor salonuna geleceÄŸi gun sayÄ±sÄ±
+        Output: Musterinin hareketlerini iÃ§eren String dizisi
         Bu fonksiyon Musteri icin otomatik olarak ders programi olusturur.
-        NOT: Otomatik program oluştururken herhangi bir uzmandan yardim alinmamistir.Paremetreler degişikli gösterebilir.
-        3 Farklı program tipi bulunmaktadır.
+        NOT: Otomatik program oluÅŸtururken herhangi bir uzmandan yardim alinmamistir.Paremetreler degiÅŸikli gÃ¶sterebilir.
+        3 FarklÄ± program tipi bulunmaktadÄ±r.
         1-> Full Body : Tum vucut bolumlerinin calistirildigi program tipidir.Yeni baslayanlar icin idealdir.
-        2-> Bolgesel : Her gun 2 farklı vucut bolgesini daha izole hareketlerle calistiran program tipidir.
-        3-> Kardiyo : Kardiyovasküler sistemi geliştirdiği için herkesin yapması gereken program tipidir.
-        Musterinin Spor salonuna geldiği gun sayisina göre otomatik olarak programa ayarlamar yapilmaktadir.
-        Hatırlatma: Return edilen hareketler dizisinin veritabanina yazilmasini saglayan fonksiyona parametre olarak gönderilmesi gerekir.
-        NOT2: Random sayilari belirli veritabani indislerine gore atanmaktadır.Eğer yeni bir hareket ederse koda mudahale gerekir.
+        2-> Bolgesel : Her gun 2 farklÄ± vucut bolgesini daha izole hareketlerle calistiran program tipidir.
+        3-> Kardiyo : KardiyovaskÃ¼ler sistemi geliÅŸtirdiÄŸi iÃ§in herkesin yapmasÄ± gereken program tipidir.
+        Musterinin Spor salonuna geldiÄŸi gun sayisina gÃ¶re otomatik olarak programa ayarlamar yapilmaktadir.
+        HatÄ±rlatma: Return edilen hareketler dizisinin veritabanina yazilmasini saglayan fonksiyona parametre olarak gÃ¶nderilmesi gerekir.
+        NOT2: Random sayilari belirli veritabani indislerine gore atanmaktadÄ±r.EÄŸer yeni bir hareket ederse koda mudahale gerekir.
         */
-        StringBuilder mesaj = new StringBuilder("Vucut kitle indexine ve kas oranınınıza göre size uygun olan program ");
+        StringBuilder mesaj = new StringBuilder("Vucut kitle indexine ve kas oranÄ±nÄ±nÄ±za gÃ¶re size uygun olan program ");
         Random random = new Random();
         String []hareketler= new String[7]; // Hareketlerin tutuldugu String
         for (int i=0;i<7;i++) hareketler[i]="null;";
         if ( this.getKasOrani() == 0 || this.getYagOrani()== 0){
             return hareketler;
         }
-        String kardiyo=hareketStringiniDondur(37,38,39,40,41,42);//Kardiyo Programı
+        String kardiyo=hareketStringiniDondur(37,38,39,40,41,42);//Kardiyo ProgramÄ±
         int index= random.nextInt(2)+1;
         int tmp;
         if(getCinsiyet().equals("Erkek")) tmp=0;
@@ -127,10 +120,10 @@ public class Musteri extends Person {
         if ((getYagOrani() < 17+6*tmp) && getKasOrani() > (36-tmp*10 )  ){
             mesaj.append("bolgesel antrenman tipidir.");
             System.out.println(mesaj);
-            System.out.println("Sizin için uygun antrenman programı su sekildedir");
-            String bacakOmuz= hareketStringiniDondur(index,index+2,index+4,index+6,index+8,index+10);
-            String gogusArkaKol= hareketStringiniDondur(index+12,index+12+2,index+12+4,index+12+6,index+12+8,index+12+10);// Gogus ile bacak indisleri arasındaki fark 12
-            String sirtOnKol=hareketStringiniDondur(index+24,index+24+2,index+24+4,index+24+6,index+24+8,index+24+10);// Gogus ile bacak indisleri arasındaki fark 24
+            System.out.println("Sizin iÃ§in uygun antrenman programÄ± su sekildedir");
+           String bacakOmuz= hareketStringiniDondur(index,index+2,index+4,index+6,index+8,index+10);
+           String gogusArkaKol= hareketStringiniDondur(index+12,index+12+2,index+12+4,index+12+6,index+12+8,index+12+10);// Gogus ile bacak indisleri arasÄ±ndaki fark 12
+            String sirtOnKol=hareketStringiniDondur(index+24,index+24+2,index+24+4,index+24+6,index+24+8,index+24+10);// Gogus ile bacak indisleri arasÄ±ndaki fark 24
             if (gunSayisi== 4 ) {
                 hareketler[0]=bacakOmuz;
                 hareketler[2]=gogusArkaKol;
@@ -142,7 +135,7 @@ public class Musteri extends Person {
             }
             else if ( gunSayisi == 2){
                 int tmp2;
-                tmp=random.nextInt(7);
+                 tmp=random.nextInt(7);
                 while(tmp== (tmp2=random.nextInt(7)));
                 hareketler[tmp]=kardiyo;
                 hareketler[tmp2]=kardiyo;
@@ -198,7 +191,7 @@ public class Musteri extends Person {
                 hareketler[4]=fullBody;
                 hareketler[6]=fullBody;
                 tmp =2*random.nextInt(3)+1;
-                int tmp2;
+                        int tmp2;
                 hareketler[tmp]= kardiyo;
                 while(tmp!=( tmp2=1+(2*random.nextInt(3))));
                 hareketler[tmp2]=kardiyo;

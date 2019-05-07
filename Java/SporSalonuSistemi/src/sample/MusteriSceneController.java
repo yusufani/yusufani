@@ -51,7 +51,7 @@ public class MusteriSceneController implements Initializable {
     public void programOlusturEkrani (ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("ProgramOlusturScene.fxml"));
         Stage stage = new Stage();
-        stage.setTitle("Program Oluþturma");
+        stage.setTitle("Program Olu?turma");
         stage.setScene(new Scene(root));
         stage.initOwner((Stage) ((Node) event.getSource()).getScene().getWindow());
         stage.initModality(Modality.APPLICATION_MODAL);
@@ -65,7 +65,7 @@ public class MusteriSceneController implements Initializable {
         double yeniKilo = Double.parseDouble(this.kilo.getText());
         musteri.setKutle(yeniKilo);
         x.musteriyiGuncelle(musteri);
-        mesaj.setText("Kilonuz Güncellendi.");
+        mesaj.setText("Kilonuz G?ncellendi.");
         VeriTabani.ms = musteri;
     }
     @FXML
@@ -74,7 +74,7 @@ public class MusteriSceneController implements Initializable {
         int yeniBoy = Integer.parseInt(this.boy.getText());
         musteri.setBoy(yeniBoy);
         x.musteriyiGuncelle(musteri);
-        mesaj.setText("Boyunuz Güncellendi.");
+        mesaj.setText("Boyunuz G?ncellendi.");
         VeriTabani.ms = musteri;
     }
 
@@ -88,7 +88,7 @@ public class MusteriSceneController implements Initializable {
             yeniBoy /= 100;
             double vki = yeniKilo / Math.pow(yeniBoy, 2);
             DecimalFormat df = new DecimalFormat("#.##");
-            mesaj.setText("Hesaplanan Vücut Kitle Ýndeksi : " + df.format(vki));
+            mesaj.setText("Hesaplanan V?cut Kitle ?ndeksi : " + df.format(vki));
         }
         else{
             mesaj.setText("Kilo ve Boyunuzu giriniz.");
@@ -118,7 +118,7 @@ public class MusteriSceneController implements Initializable {
 
 
         String[] saatler = new String[5];
-        saatler[0] = "Boþ Gün";
+        saatler[0] = "Bo? G?n";
         saatler[1] = "07.00-11.00";
         saatler[2] = "11.00-15.00";
         saatler[3] = "15.00-19.00";
@@ -147,9 +147,9 @@ public class MusteriSceneController implements Initializable {
         programTablo.getColumns().clear();
 
         TableColumn<Hareket,String> column1 = new TableColumn<>("Pazartesi\n" + gunler[0]);
-        TableColumn<Hareket,String> column2 = new TableColumn<>("Salý\n" + gunler[1]);
-        TableColumn<Hareket,String> column3 = new TableColumn<>("Çarþamba\n" + gunler[2]);
-        TableColumn<Hareket,String> column4 = new TableColumn<>("Perþembe\n" + gunler[3]);
+        TableColumn<Hareket,String> column2 = new TableColumn<>("Sal?\n" + gunler[1]);
+        TableColumn<Hareket,String> column3 = new TableColumn<>("?ar?amba\n" + gunler[2]);
+        TableColumn<Hareket,String> column4 = new TableColumn<>("Per?embe\n" + gunler[3]);
         TableColumn<Hareket,String> column5 = new TableColumn<>("Cuma\n" + gunler[4]);
         TableColumn<Hareket,String> column6 = new TableColumn<>("Cumartesi\n" + gunler[5]);
         TableColumn<Hareket,String> column7 = new TableColumn<>("Pazar\n" + gunler[6]);

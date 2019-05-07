@@ -84,13 +84,13 @@ public class ProgramOlusturSceneController implements Initializable {
             JFXRadioButton radioButton2 = new JFXRadioButton();
             JFXRadioButton radioButton3 = new JFXRadioButton();
             radioButton.setToggleGroup(group1);
-            radioButton.setText("Doluluk\nOraný: " + doluluk[1][i-1]);
+            radioButton.setText("Doluluk\nOran?: " + doluluk[1][i-1]);
             radioButton1.setToggleGroup(group1);
-            radioButton1.setText("Doluluk\nOraný: " + doluluk[2][i-1]);
+            radioButton1.setText("Doluluk\nOran?: " + doluluk[2][i-1]);
             radioButton2.setToggleGroup(group1);
-            radioButton2.setText("Doluluk\nOraný: " + doluluk[3][i-1]);
+            radioButton2.setText("Doluluk\nOran?: " + doluluk[3][i-1]);
             radioButton3.setToggleGroup(group1);
-            radioButton3.setText("Doluluk\nOraný: " + doluluk[4][i-1]);
+            radioButton3.setText("Doluluk\nOran?: " + doluluk[4][i-1]);
             dolulukTablosu.add(radioButton, i, 1);
             dolulukTablosu.add(radioButton1, i, 2);
             dolulukTablosu.add(radioButton2, i, 3);

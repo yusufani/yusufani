@@ -1,8 +1,4 @@
 package sample;
-
-import sample.Person;
-import sample.VeriTabani;
-
 public class Personel extends Person {
     public Personel( String isim, String soyisim, String sifre, String cinsiyet) {
         super( isim, soyisim, sifre, cinsiyet);

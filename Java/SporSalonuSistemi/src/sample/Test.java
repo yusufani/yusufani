@@ -1,5 +1,4 @@
-import java.util.HashMap;
-
+package sample;
 public class Test {
     public static void main (String args[]) {
         VeriTabani x = new VeriTabani();
