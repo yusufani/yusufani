@@ -25,7 +25,7 @@ class CartPole:
         self.FLAGS=FLAGS
         self.env = gym.make('CartPole-v1')
         self.state_size = len(self.env.observation_space.sample())
-        self.num_episodes=1000
+        self.num_episodes=500
         
         # Build the experience replay class
         self.exp_replay = ExperienceReplay()
@@ -51,13 +51,12 @@ class CartPole:
         # Init and reshape first state
         state=self.env.reset()
         state=state.reshape(1,self.state_size)
-        
+        sorunlar = []
         num_iter=0
         done=False
         total_reward=0
-        
+        stateler = []
         while not done:
-            
             # Get an action
             action=self.q_network.get_action(state,eps)
             
@@ -65,11 +64,11 @@ class CartPole:
             # Receive the next sate, reward and done
             state, reward, done, _ = self.env.step(action)
             state=state.reshape(1,self.state_size)
-        
+            sorunlar.append(reward)
+            stateler.append(state)
             ############# Uncomment this line if you want to render the environment###########
             #self.env.render(mode='rgb_array')
             total_reward=total_reward+reward
-            
             if done:
                 reward=-100
             # Add <s,a,r,s',done> tuple to the experience replay memory
@@ -80,7 +79,12 @@ class CartPole:
 
             if (num_iter% self.FLAGS.num_iter_update) == 0:
                 self.q_network.update_target_parameter()
-            
+        if(total_reward > 490) :
+            print("**********************************************")
+            print(sorunlar)    
+            for i in stateler:
+                print(str(i)+"\n")
+            print("**********************************************")    
         return total_reward
             
 

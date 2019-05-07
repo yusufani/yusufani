@@ -1,16 +1,18 @@
-import java.util.HashMap;
 
 public class Test {
     public static void main (String args[]) {
         VeriTabani x = new VeriTabani();
         x.VeriTabaniniAc();
        Musteri deneme = x.musteriyiBul(16011108,"beqhoj");
-        System.out.println(deneme.toString()+"  "+deneme.getDersProgrami()[0]+deneme.getHareketler()[2]);
+        System.out.println(deneme.getId());
+       deneme.setKutle(80.1);
+       x.musteriyiGuncelle(deneme);
+        //System.out.println(deneme.toString()+"  "+deneme.getDersProgrami()[0]+deneme.getHareketler()[2]);
         // a= x.musteriyiBul(1,"123456");
         //System.out.println(a.getId()+" "+a.getIsim()+" "+a.getHareketler1());
         /*a.dersProgramiOlustur(x);
         System.out.println(a.getId()+" "+a.getIsim()+" "+a.getHareketler1());*/
-        int [][] a = x.salonDolulukHistgorami();
+       /* int [][] a = x.salonDolulukHistgorami();
         ////////////////////////////////////
         int []gecicidersprog={2,1,0,3,4,3,3};
         x.musteriDersPrograminiGuncelle(2,gecicidersprog);
@@ -22,7 +24,7 @@ public class Test {
             }
             System.out.println("\n");
         }
-        System.out.println(x.aletdolulukOranlari(x.getSporIndisAlet()));
+        System.out.println(x.aletdolulukOranlari(x.getSporIndisAlet()));*/
         ///////////////////////////////
        /* System.out.println("Buradayiz");
         Musteri Yusuf = x.musteriyiBul(1,"123456");

@@ -1,3 +1,5 @@
+package TypeCasting;
+
 import java.util.*;
 
 public class MarketShelf {
@@ -25,7 +27,7 @@ public class MarketShelf {
 		boolean hasExpiredItem = false;
 		System.out.println("Expired item(s): ");
 		for( Item item : items ) {
-		    if( item instanceof Food )
+		    if( item instanceof Food)
 		    	if( ((Food)item).isExpired() ) {
 		    		hasExpiredItem = true;
 		    		System.out.println(item);

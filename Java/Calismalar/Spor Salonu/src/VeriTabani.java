@@ -1,7 +1,5 @@
 
 
-import com.sun.org.apache.bcel.internal.generic.MULTIANEWARRAY;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -362,6 +360,7 @@ public boolean musteriyiGuncelle(Musteri musteri){
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_SIFRESI +" = '"+musteri.getSifre()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_KASORANI +" = '"+musteri.getKasOrani()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_CINSIYETI +" = '"+musteri.getCinsiyet()+"' , ");
+	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_KUTLE + " = '" + musteri.getKutle()+"' , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_BOY +" = "+musteri.getBoy()+" , ");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_MEMNUNIYET +" = "+musteri.getMemnuniyet()+",");
 	sorgu.append(SUTUN_MUSTERI_GENELBILGILER_YAGORANI +" = "+musteri.getYagOrani()+" ");

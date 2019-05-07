@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MusteriEklemeSceneController">
+   <children>
+      <TableView fx:id="musterilerTablo" />
+      <VBox prefHeight="188.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label text="Ad" />
+                  <JFXTextField fx:id="ad" promptText="Ad" />
+                  <Label text="Soyad" />
+                  <JFXTextField fx:id="soyad" promptText="Soyad" />
+                  <Label text="Şifre" />
+                  <JFXTextField fx:id="sifre" promptText="*****" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label text="Cinsiyet" />
+                  <JFXComboBox fx:id="cinsiyet" prefHeight="31.0" prefWidth="80.0" />
+                  <Label text="Kütle" />
+                  <JFXTextField fx:id="kilo" promptText="KG" />
+                  <Label text="Boy" />
+                  <JFXTextField fx:id="boy" promptText="CM" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label text="Kas Oranı" />
+                  <JFXTextField fx:id="kasOrani" promptText="\%" />
+                  <Label layoutX="10.0" layoutY="10.0" text="Yağ Oranı" />
+                  <JFXTextField fx:id="yagOrani" promptText="\%" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <JFXButton buttonType="RAISED" onAction="#musteriEkle" ripplerFill="#528d5a" style="-fx-background-color: #49ed85;" text="Müşteriyi Ekle" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
