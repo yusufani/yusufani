@@ -1,0 +1,87 @@
+#include<stdio.h>
+#include <stdlib.h>
+int isExit(int number, int* array, int n);
+void createKeysandLocks(int * Lock, int *Key,int);
+void quickSortForLocks(int* , int , int);
+void printArray(int * array, int n);
+void xchg(int *,int,int );
+int createUniqueRandom(int *array, int n,int);
+int main() {
+	static int  *Lock, *Key;
+	int randomKey,n;
+	printf("Please enter the number of keys");
+	scanf("%d", &n);
+	Lock = (int *)calloc(n, sizeof(int));
+	Key = (int *)calloc(n, sizeof(int));
+	createKeysandLocks(Lock, Key,n);
+	printf("\nLock Dizisi\n");
+	printArray(Lock, n);
+	printf("\nKey Dizisi\n");
+	printArray(Key, n);
+	randomKey = rand() % n ;
+	xchg(Lock, n - 1, randomKey);
+	quickSortForLocks(Lock,0,n-1);
+	printf("\nLock Dizisi\n");
+	printArray(Lock, n);
+	printf("\nKey Dizisi\n");
+	printArray(Key, n);
+	system("PAUSE");
+}
+void  createKeysandLocks(int * Lock , int *Key,int n) {
+	int i;
+	for(i=0;i<n; i++ ) {
+		Lock[i] = createUniqueRandom(Lock, n,i);
+		Key[i] = createUniqueRandom(Key, n,i);
+		printf("Lock[%d] =%d, Ley[%d]= %d\n", i, Lock[i], i, Key[i]);
+	}
+}
+int isExit(int number, int* array , int n) {
+	int i =0;
+	while(i< n ) {
+		if (number == array[i]) return i;
+		i++;
+	}
+	return 0;
+}
+void xchg(int *Array, int i1, int i2) {
+	int tmp = Array[i1];
+	Array[i1] = Array[i2];
+	Array[i2] = tmp;
+}
+
+int partition(int* array, int l, int r) {
+	int pivot = array[r];
+	int i, k = 0;
+	for(i=l;i<r;i++) {
+		if(pivot>array[i]) {
+			xchg(array, i, k);
+			k++;
+		}
+	}
+	xchg(array, k, r);
+	return k;
+}
+
+void quickSortForLocks(int*Array , int l , int r) {
+	if(r>l) {
+		int s = partition(Array, l, r);
+		quickSortForLocks(Array,l, s - 1);
+		quickSortForLocks(Array, s + 1, r);
+	}
+}
+void printArray(int * array , int n) {
+	int i;
+	for (i = 0; i < n; i++) printf("%d-", array[i]);
+}
+int createUniqueRandom(int *array , int n,int numberOfElementh) {
+	int value, i = 0;
+	do {
+		value = rand() % n + 1;
+		i++;
+	} while (isExit(value, array, numberOfElementh) && i< n*n+n);
+	if(i> n*n ) {
+		printf("All index has already created ");
+		exit(0);
+	}
+	return value;
+}
