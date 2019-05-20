@@ -1,5 +1,0 @@
-﻿  Source.c
-E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\Odev3\Odev3\Source.c(9): warning C4031: second formal parameter list longer than the first list
-E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\Odev3\Odev3\Source.c(9): warning C4028: formal parameter 2 different from declaration
-E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\Odev3\Odev3\Source.c(12): warning C4101: 'randomKey': unreferenced local variable
-  Odev3.vcxproj -> E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\Odev3\Debug\Odev3.exe

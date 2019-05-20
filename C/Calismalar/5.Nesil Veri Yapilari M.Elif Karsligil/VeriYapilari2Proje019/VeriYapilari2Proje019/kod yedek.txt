@@ -1,0 +1,162 @@
+﻿#include <stdio.h>
+#include <stdlib.h>
+#include  <string.h>
+#define WORDCOUNT 2415
+typedef struct node{
+	int value;
+	int comesFrom;
+}NODE;
+typedef struct queue {
+	int value;
+	struct queue* next;
+}QUEUE;
+void printQueue(QUEUE** root);
+void fillAdjacency(char** words, char** adjacency);
+NODE* initializeNode();
+void checkAdjacency(char** words, char** adjacency,  char* str,  char* text);
+int findIndex(char** matrix, char* str1);
+void enqueu(int value, QUEUE** root, QUEUE** current);
+int dequeu(QUEUE** root, QUEUE** current);
+int isConversion(char* str, char* str2, char** words, char** adjacency);
+void printPath(char** words, NODE* p, int i);
+
+int main () {
+	int i, j, k = 0;
+	FILE* file;
+	file = fopen("kelime.txt", "r");
+	if ( file == NULL ) {
+		printf("File can not be found ");
+		exit(0);
+	}
+	char** words;
+	words = (char**)calloc(WORDCOUNT, sizeof(char*));
+	for (i = 0; i < WORDCOUNT; i++) 	words[i] = (char*)calloc(WORDCOUNT, sizeof(char));
+	i = 0;
+	while (!feof(file))	fscanf(file, "%s", words[i++]);
+	char** adjacency;
+	adjacency = (char**)calloc(WORDCOUNT, sizeof(char*));
+	for (i = 0; i < WORDCOUNT; i++) 	adjacency[i] = (char*)calloc(WORDCOUNT, sizeof(char));
+	fillAdjacency(words, adjacency);
+
+	checkAdjacency(words,adjacency,"adorn", "adore");
+	checkAdjacency(words, adjacency, "aegis", "admix");
+	isConversion("adobe", "runic", words, adjacency);
+}
+void fillAdjacency(char** words, char** adjacency) {
+	int j, k, i;
+	char flag;
+	for (i = 0; i < WORDCOUNT; i++) 
+		for (j = i + 1; j < WORDCOUNT; j++) {
+			flag = 1;
+			k = 0;
+			while (flag >= 0 && k < strlen(words[i]))	if (words[i][k++] != words[j][k]) flag--;
+			if (flag >= 0)		adjacency[i][j] = adjacency[j][i] = 1;
+		}
+
+}
+void checkAdjacency(char** words, char** adjacency, char* str1, char* str2) {
+	int i = findIndex(words,str2), k = findIndex(words, str1);
+	if (adjacency[i][k] == adjacency[k][i] && adjacency[i][k] == 1) {
+		printf("link found \n");
+		return;
+	}
+	printf("link didn't find\n");
+}
+
+int isConversion(char *str,char *str2 , char ** words , char **adjacency) {
+	int m = 0;
+	QUEUE* root = NULL;
+	QUEUE* current = NULL;
+	NODE* p =initializeNode();
+	p->value=findIndex(words, str);
+	p->comesFrom = -1;
+	int i;
+	char* visited;
+	visited = (char*)calloc(WORDCOUNT , sizeof(char));
+	visited[p->value] = 1;
+	enqueu(p->value, &root, &current);
+	int v;
+	int IndexOfPath = 0;
+	int str2Index = findIndex(words, str2);
+	while((v=dequeu(&root,&current)) !=-1 && v!=str2Index) { 
+		printf("%s\n  v==%d ", words[v],v);
+		for(i=0;i<WORDCOUNT; i++) {
+			if(adjacency[v][i]== 1  && visited[i] ==  0) {
+				p = (NODE*)realloc(p,sizeof(NODE)* (++IndexOfPath+1));
+				p[IndexOfPath].value = i;
+				p[IndexOfPath].comesFrom = v;
+				enqueu(i, &root, &current);
+				visited[i] = 1;
+			}
+		}
+		QUEUE * freeQUEUE;
+		freeQUEUE = root;
+		root = root->next;
+		free(freeQUEUE);
+	}
+	if (v == str2Index) {
+		printPath(words, p, v);
+		printf("Fond Path ");
+	}
+	else {
+		printf("Didn't find path ");
+	}
+
+
+
+}
+NODE* initializeNode() {
+	return (NODE*)malloc(sizeof(NODE));
+}
+void enqueu (int value,QUEUE **root,QUEUE  ** current) {
+	QUEUE* p;
+	p = (QUEUE * )malloc(sizeof(QUEUE));
+	p->next = NULL;
+	p->value = value;
+	if ((*root) == NULL) {
+		*root = p;
+		*current = *root;
+		return;
+	}
+	else {
+		(*current)->next = p;
+		(*current) = (*current)->next;
+	}
+}
+int dequeu(QUEUE** root, QUEUE** current) {
+	if (*root == NULL) return -1;// Index can not be -1 
+	int tmp = (*root)->value;
+
+	return tmp;
+}
+int findIndex(char **matrix, char *str1) {
+	int k = 0;
+	while (k < WORDCOUNT && strcmp(matrix[k], str1)) k++;
+	if (k >= WORDCOUNT) {
+		printf("Word '%s'  can not be found Program Canceled", str1);
+		exit(0);
+	}
+	return k;
+}
+void printQueue(QUEUE** root) {
+	QUEUE* p;
+	p = *root;
+	printf("\nKuyruk Yazdiirliyor\n");
+	if (p == NULL) printf("Kuyruk boş \n");
+	else {
+		while (p != NULL) {
+			printf("%d\t", p->value);
+			p = p->next;
+		}
+	}
+}
+void printPath(char ** words , NODE* p, int i) {
+	if(i!=-1) {
+		int k = 0;
+		while(p[k].value != i ) {
+			k++;
+		}
+		printPath(words,p, p[k].comesFrom);
+		printf("%s->", words[p[k].value]);
+	}	
+}

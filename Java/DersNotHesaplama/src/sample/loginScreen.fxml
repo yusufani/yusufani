@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="747.0" style="-fx-background-color: #2A363F; -fx-border-color: linear-gradient(to bottom, #780206, #061161);; -fx-border-width: 5; -fx-background-radius: 100; -fx-border-radius: 100;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForLogin">
+   <children>
+      <Pane layoutX="36.0" layoutY="205.0" prefHeight="83.0" prefWidth="259.0">
+         <children>
+            <Group layoutX="14.0" layoutY="26.0">
+               <children>
+                  <Circle fill="#6dd89f" layoutY="3.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#5fb68c" layoutX="19.0" layoutY="3.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#457666" layoutY="21.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#539778" layoutX="19.0" layoutY="21.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Text fill="#ff9b00" layoutX="33.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ders Not Hesaplama Sistemine Hoşgeldiniz" wrappingWidth="202.1025390625">
+                     <font>
+                        <Font name="Century Gothic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="373.0" layoutY="254.0" rotate="90.0" startX="-150.0" stroke="#465058" strokeWidth="2.0" />
+      <VBox layoutX="404.0" layoutY="143.0" spacing="20.0">
+         <children>
+            <TextField id="enterHourlyFee" fx:id="enterHourlyFee" prefHeight="41.0" prefWidth="248.0" promptText="Enter Hourly Fee" style="-fx-background-color: #FF6F00; -fx-border-color: #465058;" text="Ogrenci İsmi Giriniz" />
+            <JFXButton id="enterSystem" onAction="#enterTheSystem" prefHeight="41.0" prefWidth="248.0" style="-fx-background-color: #6ED9A0;" text="ENTER THE SYSTEM" textFill="#fbfcfc">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+      <JFXButton layoutX="480.0" layoutY="392.0" text="Questions ?" textFill="#465058">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="652.0" layoutY="22.0" prefHeight="24.0" prefWidth="36.0" style="-fx-background-color: #e30909; -fx-background-radius: 50;" text="Exit" />
+      <Text fx:id="QuestionsText" fill="#00ff37" layoutX="26.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It is a Mid-Term Project that created by Yusuf Anı who is computer engineering student at Yildiz Technical University.                                                                              Email : yusufani8@gmail.com" visible="false" wrappingWidth="297.0000056028366" />
+   </children>
+</AnchorPane>

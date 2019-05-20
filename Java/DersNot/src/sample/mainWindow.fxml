@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" style="-fx-background-color: linear-gradient(to right, #2a0845, #00003B); -fx-border-color: linear-gradient(to right, #000000 0%, #6B090C 78%, #C94000 100%); -fx-border-width: 5; -fx-background-radius: 100; -fx-border-radius: 100;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox layoutX="14.0" layoutY="163.0" spacing="675.0">
+         <children>
+            <Group>
+               <children>
+                  <VBox layoutX="49.0" layoutY="8.0" spacing="40.0" />
+               </children>
+            </Group>
+            <Group />
+         </children>
+      </HBox>
+      <AnchorPane layoutX="269.0" layoutY="350.0" prefHeight="238.0" prefWidth="485.0" style="-fx-background-color: linear-gradient(to right, #485563, #29323c);; -fx-background-radius: 50; -fx-border-color: linear-gradient(from 0% 0% to 100% 100%,  #EA5C54  0%,#bb6dec 100%); -fx-border-radius: 50;">
+         <children>
+            <AnchorPane layoutX="36.0" layoutY="17.0">
+               <children>
+                  <VBox layoutX="37.0" layoutY="11.0" prefHeight="191.0" prefWidth="398.0" spacing="13.0">
+                     <children>
+                        <Label fx:id="TextHourlyFee" prefHeight="18.0" prefWidth="244.0" text="Hourly Fee : " textFill="#60bfbf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="TextCurrentTime" prefHeight="18.0" prefWidth="244.0" text="Current Time :" textFill="#60bfbf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="TextDailyIncome" prefHeight="18.0" prefWidth="272.0" text="Daily Income : " textFill="#60bfbf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="TextCapacity" prefHeight="18.0" prefWidth="272.0" text="Capacity :" textFill="#60bfbf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="TextCurrentParkedVehicle" prefHeight="18.0" prefWidth="244.0" text="Current Parked Vehicle : " textFill="#60bfbf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox spacing="8.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="253.0" layoutY="38.0" onAction="#showSubcribedVehicles" prefHeight="67.0" prefWidth="575.0" ripplerFill="#a17979" style="-fx-background-color: linear-gradient(to top, #ff512f, #f09819); -fx-border-color: linear-gradient(to right, #000000 0%, #6B090C 78%, #C94000 100%); -fx-border-width: 6; -fx-border-radius: 25; -fx-background-radius: 25;" text="Ders Not Hesaplama" />
+      <JFXButton layoutX="942.0" layoutY="25.0" prefHeight="24.0" prefWidth="36.0" style="-fx-background-color: #e30909; -fx-background-radius: 50;" text="Exit" />
+      <Group layoutX="131.0" layoutY="374.0" />
+   </children>
+</AnchorPane>

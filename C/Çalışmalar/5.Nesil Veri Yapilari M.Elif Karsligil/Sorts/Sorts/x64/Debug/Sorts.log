@@ -1,5 +1,0 @@
-﻿  Sorts.cpp
-e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\sorts\sorts\sorts.cpp(52): warning C4473: 'scanf' : not enough arguments passed for format string
-  e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\sorts\sorts\sorts.cpp(52): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-  e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\sorts\sorts\sorts.cpp(52): note: the missing variadic argument 1 is required by format string '%d'
-  Sorts.vcxproj -> E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\Sorts\x64\Debug\Sorts.exe

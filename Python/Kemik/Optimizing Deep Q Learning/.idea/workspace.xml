@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e47a8dc9-b39d-4bf3-a72c-8e5220ea9c88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/AutoPark System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForAddSubcriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForAutoParkAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForIsParked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForSearchVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForSetCurrentTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForSplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForSubscribedTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForVehicleEnters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/ControllerForVehicleExits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/addSubscriber.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/currentTime.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/isParked.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/loginWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/mainWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/searchVehicle.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/setAttributesAutopark.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/splashScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/subscribedWindows.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/vehicleEnters.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/GUI/vehicleExits.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/AutoPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/OfficialVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/ParkRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/RegularVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/SubscribedVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Test/TestAutopark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Test/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Test/TestParkRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Test/TestSubscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Test/TestTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/AutoPark System/src/Otopark/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/DersNotHesaplama/src/Backend/Ders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/DersNotHesaplama/src/Backend/Ogrenci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/.vs/Veri-Yapilari-M.ElifKarsligil/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/.vs/Veri-Yapilari-M.ElifKarsligil/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/.vs/Veri-Yapilari-M.ElifKarsligil/v15/ipch/AutoPCH/170504654fc27803/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/.vs/Veri-Yapilari-M.ElifKarsligil/v15/ipch/AutoPCH/60ec7f95b7aa97b3/DEBUGGER_JMC.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/ipch/AutoPCH/242251dd12133b90/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/.vs/AgaciHeapYapma/v15/ipch/AutoPCH/c38acd32f045f9e0/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/AgaciHeapYapma.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/AgaciHeapYapma.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/AgaciHeapYapma.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/AgaciHeapYapma.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/AgaciHeapYapma.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/AgaciHeapYapma/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/Debug/AgaciHeapYapma.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/Debug/AgaciHeapYapma.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/AgaciHeapYapma/Debug/AgaciHeapYapma.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/ipch/AutoPCH/60c9dfeaf560a328/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/.vs/Binary Search Algorithms/v15/ipch/AutoPCH/ed39ccd9cbf0da48/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Binary Search Algorithms.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Binary Search Algorithms.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Binary Search Algorithms.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/Binary Search Algorithms.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary S.BF88778C.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Binary Search Algorithms.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Binary Search Algorithms/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Debug/Binary Search Algorithms.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Debug/Binary Search Algorithms.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Binary Search Algorithms/Debug/Binary Search Algorithms.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Debug/Veri-Yapilari-M.ElifKarsligil.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Debug/Veri-Yapilari-M.ElifKarsligil.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Debug/Veri-Yapilari-M.ElifKarsligil.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/ipch/AutoPCH/225e51f2f1a85191/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/ipch/AutoPCH/4a8e751b2a9521c/SORTS.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/ipch/AutoPCH/56a40c0f104a5b50/SOURCE2.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/.vs/Heap/v15/ipch/AutoPCH/6d0a0366d6571751/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Debug/Heap.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Debug/Heap.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Debug/Heap.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.Build.CppClean.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/Heap.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Heap.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/source.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Heap.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Heap.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Heap.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Heap/Heap/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/.vs/LinkedList2/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/.vs/LinkedList2/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/.vs/LinkedList2/v15/ipch/AutoPCH/11845e86e160389d/SOURCE2.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/.vs/LinkedList2/v15/ipch/AutoPCH/399f89458e308b5c/~VSF6F1.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/.vs/LinkedList2/v15/ipch/AutoPCH/e0c798cb7b2c2bdc/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/Debug/LinkedList2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/Debug/LinkedList2.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/Debug/LinkedList2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/LinkedList2.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/LinkedList2.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/LinkedList2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/LinkedList2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/LinkedList2.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/LinkedList2/LinkedList2/Source2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v15/ipch/AutoPCH/628edc86e4487bf/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v15/ipch/AutoPCH/718416b6e157b0e6/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v15/ipch/AutoPCH/f4a812414215f7fe/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v16/ipch/AutoPCH/718416b6e157b0e6/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/.vs/Odev3/v16/ipch/AutoPCH/b8fec6c84313b285/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/BLM2512_2018-2_Odev3 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Debug/Odev3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Debug/Odev3.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Debug/Odev3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/Odev3.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Odev3.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Odev3.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Odev3.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Odev3.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Odev3/Source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Ödev 3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Odev3/Ödev 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/.vs/Pattern Search/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/.vs/Pattern Search/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/.vs/Pattern Search/v15/ipch/AutoPCH/912dd62af1aabf33/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/.vs/Pattern Search/v15/ipch/AutoPCH/badd95b7aab0d17c/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Debug/Pattern Search.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Debug/Pattern Search.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Debug/Pattern Search.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/Pattern Search.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Pattern Search.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/source.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Pattern Search.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Pattern Search.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Pattern Search.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Pattern Search/Pattern Search/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/.vs/Project1/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/.vs/Project1/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/.vs/Project1/v15/ipch/AutoPCH/9e5d58d80057640/QUEQUEE IN STACK.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1/Project1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1/Project1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1/Project1.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project1/Project1/Quequee in stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/.vs/Project2/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/.vs/Project2/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/.vs/Project2/v15/ipch/AutoPCH/7ba6226c5910e79a/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/.vs/Project2/v15/ipch/AutoPCH/bef00f041a2e3ef2/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Debug/Project2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Debug/Project2.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Debug/Project2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/Project2.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Project2.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Project2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Project2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Project2.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/Project2/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Project2/eskikod.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/ipch/AutoPCH/539a4d0472fca8f/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/ipch/AutoPCH/564ffe51a20fb9ae/BUBBLESORT.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/.vs/Sorts/v15/ipch/AutoPCH/8a5f7b83646c0653/SORTS.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/Sorts.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/Sorts.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/Sorts.tlog/Sorts.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/Sorts.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/Sorts.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/BubbleSort.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/Sorts.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Sorts.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/Sorts/x64/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Sorts/x64/Debug/Sorts.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/.vs/StackKullanarakKuyrukYapma/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/.vs/StackKullanarakKuyrukYapma/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/.vs/StackKullanarakKuyrukYapma/v15/ipch/AutoPCH/5e375d376b1468ac/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/.vs/StackKullanarakKuyrukYapma/v15/ipch/AutoPCH/8624b801e85f1f94/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/Debug/StackKullanarakKuyrukYapma.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/Debug/StackKullanarakKuyrukYapma.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/Debug/StackKullanarakKuyrukYapma.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/StackKullanarakKuyrukYapma.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKul.8D51E1BB.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/StackKullanarakKuyrukYapma.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma/StackKullanarakKuyrukYapma.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/Veri-Yapilari-M.ElifKarsligil.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yap.2F0A4872.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/Veri-Yapilari-M.ElifKarsligil.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Veri-Yapilari-M.ElifKarsligil.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Veri-Yapilari-M.ElifKarsligil.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/Veri-Yapilari-M.ElifKarsligil/Veri-Yapilari-M.ElifKarsligil.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/1940177425c69b50/SONHALI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/430e2923eed00360/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/5ed6480c1bdc2a6a/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/66756fcc74351d43/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/6edb47279cb85bda/YENISI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/8e9a1333e7770b3a/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/bd8bef0c991b48e0/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/VeriYapilariOdev2/v15/ipch/AutoPCH/ea2e79e968eb0a47/YENISI.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/BLM2512-2018_2-Odev2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/Debug/VeriYapilariOdev2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/Debug/VeriYapilariOdev2.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/Debug/VeriYapilariOdev2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/HW2_16011033.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VY_Odev2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/VeriYapilariOdev2.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapi.534C4E93.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/VeriYapilariOdev2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/source.obj.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/SonHali.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/Source.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/VeriYapilariOdev2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/VeriYapilariOdev2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/VeriYapilariOdev2.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/SonHali.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/VeriYapilariOdev2.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapi.534C4E93.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/VeriYapilariOdev2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/x64/Debug/yenisi.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/VeriYapilariOdev2/yenisi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/Yusuf Anı 16011033.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/x64/Debug/VeriYapilariOdev2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/x64/Debug/VeriYapilariOdev2.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariOdev2/x64/Debug/VeriYapilariOdev2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/.vs/VeriYapilariVize1- KuyrukU Stack gibi kullanmak/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/.vs/VeriYapilariVize1- KuyrukU Stack gibi kullanmak/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/.vs/VeriYapilariVize1- KuyrukU Stack gibi kullanmak/v15/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/.vs/VeriYapilariVize1- KuyrukU Stack gibi kullanmak/v15/ipch/AutoPCH/ff0922e78fc39c94/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1- KuyrukU Stack gibi kullanmak.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/Source.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/VeriYapilariVize1.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapi.8C2E9CA4.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/VeriYapilariVize1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/VeriYapilariVize1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/VeriYapilariVize1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilariVize1/VeriYapilariVize1/VeriYapilariVize1.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/3800cad71ecf9b9c/16011033.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/5a80dcffde85215b/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/6060ba5a8e5b2264/16011033.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/689f0b4c9ba69978/16011033.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/7fd95701a2bd775d/16011033.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/.vs/VeriYapilarÖdev1/v15/ipch/AutoPCH/c5ca788599980441/16011033.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/Hw1_16011033.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/16011033.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/16011033.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/VeriYapilarÖdev1.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/VeriYapilarÖdev1.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/VeriYapilarÖdev1.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/VeriYapilarÖdev1.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/VeriYapilarÖdev1/VeriYapilarÖdev1/VeriYapilarÖdev1.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/ipch/AutoPCH/1017c5bb6f5d111a/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/ipch/AutoPCH/1f4a3ba136a14c1c/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/ipch/AutoPCH/9749cc1f98351a1e/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/ipch/AutoPCH/a89de66c11809947/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/.vs/vize 2.Soru/v15/ipch/AutoPCH/a8b221a01eaa6705/SOURCE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru/Source.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru/vize 2.Soru.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru/vize 2.Soru.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C/Çalışmalar/5.Nesil Veri Yapilari M.Elif Karsligil/vize 2.Soru/vize 2.Soru/vize 2.Soru.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/ccw.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/ccw.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.as.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.css.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.adobe.flexide.mxml.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.axmor.eclipse.typescript.editor.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.axmor.eclipse.typescript.editor.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.dubture.twig.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.dubture.twig.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.eclipsecolortheme.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.eclipsecolortheme.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.rustdt.ide.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.github.rustdt.ide.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.google.eclipse.protobuf.Protobuf.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.google.eclipse.protobuf.Protobuf.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.googlecode.goclipse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.googlecode.goclipse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.palantir.typescript.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.palantir.typescript.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.powerflasher.fdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.powerflasher.fdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.module.dsl.Module.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.module.dsl.Module.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.pp.dsl.PP.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.puppetlabs.geppetto.pp.dsl.PP.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.js.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.js.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.xml.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.spket.xml.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.wolfram.eclipse.MEET.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.wolfram.eclipse.MEET.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.base.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.base.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.r.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/de.walware.statet.r.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/eclihx.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/eclihx.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/jp.gr.java_conf.ussiy.app.propedit.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/jp.gr.java_conf.ussiy.app.propedit.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/jsonedit-core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/jsonedit-core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.eclipsefp.haskell.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.eclipsefp.haskell.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sourceforge.texlipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sourceforge.texlipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.vtst.ow.eclipse.less.Less.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.vtst.ow.eclipse.less.Less.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.apache.ivyde.eclipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.apache.ivyde.eclipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cfeclipse.cfml.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cfeclipse.cfml.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.chromium.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.chromium.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cloudsmith.geppetto.pp.dsl.PP.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.cloudsmith.geppetto.pp.dsl.PP.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.codehaus.groovy.eclipse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.dadacoalition.yedit.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.dadacoalition.yedit.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.angularjs.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.angularjs.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.make.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.make.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.ruby.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.ruby.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.tcl.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.tcl.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.CSS.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.CSS.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.dtd.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xsl.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xsl.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtend.core.Xtend.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtend.core.Xtend.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtend.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtext.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.xtext.xtext.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.epic.perleditor.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.erlide.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.erlide.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.ide.eclipse.freemarker.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.ide.eclipse.freemarker.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.gradle.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.gradle.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.jade.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.nodeclipse.enide.editors.jade.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.python.pydev.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.play2.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.play2.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sweetlemonade.eclipse.json.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sweetlemonade.eclipse.json.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/winterwell.markdown.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/winterwell.markdown.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Calismalar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Calismalar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/cartpole_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/cartpole_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/ddqn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/ddqn_model.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/cartpole_env.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="231" column="61" selection-start-line="231" selection-start-column="61" selection-end-line="231" selection-end-column="61" />
+              <folding>
+                <element signature="e#108#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/seaborn/categorical.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3024">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/Windows/ProgramFiles/Anaconda/pkgs/pillow-5.3.0-py37hdc69c19_0/Lib/site-packages/PIL/ImageDraw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6168">
+              <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/decomposition/pca.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8280">
+              <caret line="359" selection-start-line="359" selection-end-line="359" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/ddqn_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3240">
+              <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/run_training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/run_training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26496">
+              <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/ddqn_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2544">
+              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+              <folding>
+                <element signature="e#103#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/exp_replay.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>action</find>
+      <find>target_net</find>
+      <find>ac</find>
+      <find>plt</find>
+      <find>Axes</find>
+      <find>5</find>
+      <find>fig</find>
+      <find>nu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/pendulum_env.py" />
+        <option value="$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/ddqn_model.py" />
+        <option value="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/ddqn_model.py" />
+        <option value="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/cartpole_env.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Optimizing Deep Q Learning.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="129" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Optimizing Deep Q Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Optimizing Deep Q Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Optimizing Deep Q Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Optimizing Deep Q Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="CartpoleWithDoubleDeepQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_training (1)">
+    <configuration name="run_training (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Optimizing Deep Q Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CartpoleWithDoubleDeepQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CartpoleWithDoubleDeepQ/run_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Optimizing Deep Q Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/run_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_training (1)" />
+        <item itemvalue="Python.run_training" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e47a8dc9-b39d-4bf3-a72c-8e5220ea9c88" name="Default Changelist" comment="" />
+      <created>1557258689693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557258689693</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1461318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" x="1" y="100" width="1323" height="608" id="Run" order="2" sideWeight="0.497851" weight="0.3984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4928" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32893" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32893" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502149" side_tool="true" weight="0.15719947" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Python Console" order="3" sideWeight="0.49925596" weight="0.23997134" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.4064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Python Console" order="3" sideWeight="0.49925596" weight="0.3464448" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/run_training.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/ddqn_model.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1957" selection-start-line="1957" selection-end-line="1957" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/gym/envs/classic_control/pendulum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Windows/ProgramFiles/Anaconda/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/pendulum_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+          <folding>
+            <element signature="e#109#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/exp_replay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/gym/wrappers/time_limit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9840">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scipy/sparse/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28944">
+          <caret line="1216" selection-start-line="1216" selection-end-line="1216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2962" selection-start-line="2962" selection-end-line="2962" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="4005" selection-start-line="4005" selection-end-line="4005" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/cartpole_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="231" column="61" selection-start-line="231" selection-start-column="61" selection-end-line="231" selection-end-column="61" />
+          <folding>
+            <element signature="e#108#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/seaborn/categorical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Windows/ProgramFiles/Anaconda/pkgs/pillow-5.3.0-py37hdc69c19_0/Lib/site-packages/PIL/ImageDraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6168">
+          <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/decomposition/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8280">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/ddqn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/run_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/run_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26496">
+          <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pendulumv-0 DoubleDeepQLearning/ddqn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2544">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding>
+            <element signature="e#103#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CartpoleWithDoubleDeepQ/exp_replay.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

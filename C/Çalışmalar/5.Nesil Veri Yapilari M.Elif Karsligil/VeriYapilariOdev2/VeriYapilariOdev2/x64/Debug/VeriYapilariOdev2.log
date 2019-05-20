@@ -1,6 +1,0 @@
-﻿  SonHali.c
-e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\sonhali.c(32): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'char *'
-  e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\sonhali.c(32): note: consider using '%hhd' in the format string
-e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\sonhali.c(223): warning C4033: 'deleteUser' must return a value
-e:\yusuf ani arsiv\c\çalışmalar\5.nesil veri yapilari m.elif karsligil\veriyapilariodev2\veriyapilariodev2\sonhali.c(262): warning C4715: 'deleteUser': not all control paths return a value
-  VeriYapilariOdev2.vcxproj -> E:\Yusuf Ani Arsiv\C\Çalışmalar\5.Nesil Veri Yapilari M.Elif Karsligil\VeriYapilariOdev2\x64\Debug\VeriYapilariOdev2.exe

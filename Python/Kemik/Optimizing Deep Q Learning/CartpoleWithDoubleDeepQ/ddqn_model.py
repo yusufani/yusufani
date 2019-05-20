@@ -13,7 +13,6 @@ class DDQN:
         """
         This class build a model for either a target or Q-Network and impliments 
         the methods of Deep Double Q-Learning.
-        
         :param scope: A string, tells if this model is a Target-, or Q-Network
         :param env: The openAI Gym instance
         :param target_network: The instance of the Target-Network class.
@@ -25,7 +24,6 @@ class DDQN:
         self.state_size=len(env.observation_space.sample())
         self.action_size = env.action_space.n
         self.FLAGS=flags
-        
         # Building the Target-Network
         if scope=='target':
             
@@ -159,7 +157,7 @@ class DDQN:
         
         self.session.run(self.train_opt,feed_dict)
     
-    def get_action(self, state, eps):
+    def get_action(self, state, eps,counter):
         """Calcualte Q(s,a) by the Q-Network, use the epislon-greedy policy to pick an action..
     
         :param s: current state s, given by the environment
@@ -167,9 +165,10 @@ class DDQN:
         """
         
         if np.random.random()<eps:
-            return np.random.choice(self.action_size)
+            counter+=1
+            return np.random.choice(self.action_size),counter
         else:
-            return np.argmax(self.session.run(self.q, feed_dict={self.x: state}))
+            return np.argmax(self.session.run(self.q, feed_dict={self.x: state})),counter
     
     def set_session(self, session):
         '''Sets the session of the appropriate network. '''

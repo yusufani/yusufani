@@ -1,0 +1,2 @@
+Stateler arasinda ok ile geçisleri göster 
+5 tane tam puan ile 5 tane düsük puanli stateleri göster. Gösterirken düsük puanlilari üçgen ile gösterebilirsin . 
