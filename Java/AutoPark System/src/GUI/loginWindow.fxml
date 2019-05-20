@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="747.0" style="-fx-background-color: #2A363F; -fx-border-color: #FF6F00; -fx-border-width: 5; -fx-background-radius: 100; -fx-border-radius: 100;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ControllerForLogin">
+   <children>
+      <Pane layoutX="36.0" layoutY="205.0" prefHeight="83.0" prefWidth="259.0">
+         <children>
+            <Group layoutX="14.0" layoutY="26.0">
+               <children>
+                  <Circle fill="#6dd89f" layoutY="3.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#5fb68c" layoutX="19.0" layoutY="3.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#457666" layoutY="21.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#539778" layoutX="19.0" layoutY="21.158203125" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Text fill="#ff9b00" layoutX="33.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome The Autopark System" wrappingWidth="202.1025390625">
+                     <font>
+                        <Font name="Century Gothic" size="27.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Line endX="100.0" layoutX="373.0" layoutY="254.0" rotate="90.0" startX="-150.0" stroke="#465058" strokeWidth="2.0" />
+      <TextField id="enterHourlyFee" fx:id="enterHourlyFee" layoutX="404.0" layoutY="143.0" prefHeight="41.0" prefWidth="248.0" promptText="Enter Hourly Fee" style="-fx-background-color: #FF6F00; -fx-border-color: #465058;" />
+      <JFXButton id="enterSystem" fx:id="enterSystem" layoutX="404.0" layoutY="330.0" onAction="#enterTheSystem" prefHeight="41.0" prefWidth="248.0" style="-fx-background-color: #6ED9A0;" text="ENTER THE SYSTEM" textFill="#fbfcfc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="480.0" layoutY="392.0" text="Questions ?" textFill="#465058">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXDatePicker id="currentTime" fx:id="currentTime" layoutX="404.0" layoutY="276.0" prefHeight="41.0" prefWidth="248.0" promptText="Select A Current Time" style="-fx-background-color: #FF6F00;" />
+      <TextField id="enterCapacity" fx:id="enterCapacity" layoutX="404.0" layoutY="213.0" prefHeight="41.0" prefWidth="248.0" promptText="Enter Capacity" style="-fx-background-color: #FF6F00; -fx-border-color: #465058;" />
+      <JFXButton layoutX="652.0" layoutY="22.0" onAction="#exit" prefHeight="24.0" prefWidth="36.0" style="-fx-background-color: #e30909; -fx-background-radius: 50;" text="Exit" />
+   </children>
+</AnchorPane>

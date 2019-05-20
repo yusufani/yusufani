@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane style="-fx-background-color: #2A363F; -fx-border-color: #FF6F00; -fx-border-width: 5; -fx-background-radius: 100; -fx-border-radius: 100;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2A363F; -fx-border-color: #FF6F00; -fx-border-width: 5; -fx-background-radius: 100; -fx-border-radius: 100;">
+         <children>
+            <JFXRadioButton layoutX="544.0" layoutY="172.0" text="isSpecial(Police , Ambulance )" />
+            <HBox alignment="TOP_CENTER" layoutX="202.89999389648438" layoutY="21.899999618530273" spacing="40.0" />
+            <VBox layoutX="28.899999618530273" layoutY="170.89999389648438" spacing="40.0">
+               <children>
+                  <JFXButton onAction="#showIsParked" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Vehicle is Parked ?" />
+                  <JFXButton onAction="#showAddSubscriber" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Add Subscriber" />
+                  <JFXButton lineSpacing="15.0" onAction="#showSearchVehicle" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Search Vehicle" />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" layoutX="320.8999938964844" layoutY="216.89999389648438" spacing="50.0">
+               <children>
+                  <JFXButton lineSpacing="500.0" onAction="#showVehicleEnters" prefHeight="120.0" prefWidth="127.0" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 100;" text="Vehicle Enters " />
+                  <JFXButton lineSpacing="15.0" onAction="#showVehicleExits" prefHeight="120.0" prefWidth="127.0" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 100;" text="Vehicle Exits" />
+               </children>
+            </HBox>
+            <VBox alignment="TOP_RIGHT" layoutX="741.9000244140625" layoutY="184.89999389648438" spacing="40.0">
+               <children>
+                  <JFXButton onAction="#showSetCurrentTime" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Set Current Time" />
+                  <JFXButton onAction="#showSetHourlyFee" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Set Hourly Fee" />
+                  <JFXButton onAction="#showSetCapacity" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Set Capacity" />
+               </children>
+            </VBox>
+            <Separator layoutX="204.0" layoutY="156.0" orientation="VERTICAL" prefHeight="200.0" />
+            <Separator layoutX="714.0" layoutY="156.0" orientation="VERTICAL" prefHeight="200.0" />
+            <AnchorPane layoutX="242.0" layoutY="361.0" prefHeight="200.0" prefWidth="398.0" style="-fx-background-color: #650802; -fx-background-radius: 50; -fx-border-color: #60655C; -fx-border-radius: 50;">
+               <children>
+                  <Label fx:id="TextHourlyFee" layoutX="28.0" layoutY="26.0" prefHeight="18.0" prefWidth="244.0" text="Hourly Fee : " />
+                  <Label fx:id="TextCurrentTime" layoutX="26.0" layoutY="56.0" prefHeight="18.0" prefWidth="244.0" text="Current Time" />
+                  <Label fx:id="TextDailyIncome" layoutX="22.0" layoutY="91.0" prefHeight="18.0" prefWidth="272.0" text="Daily Income : " />
+                  <Label fx:id="TextCapacity" layoutX="22.0" layoutY="128.0" prefHeight="18.0" prefWidth="272.0" text="Capacity :" />
+                  <Label fx:id="TextCurrentParkedVehicle" layoutX="26.0" layoutY="157.0" prefHeight="18.0" prefWidth="244.0" text="Current Parked Vehicle : " />
+               </children>
+            </AnchorPane>
+            <JFXButton layoutX="210.0" layoutY="20.0" onAction="#showSubcribedVehicles" prefHeight="32.0" prefWidth="584.0" ripplerFill="#a17979" style="-fx-background-color: #FF6F00; -fx-background-radius: 25;" text="Show Subcribed Vehicles and Park Records" />
+            <JFXButton layoutX="824.0" layoutY="40.0" onAction="#close" style="-fx-background-color: #E30909; -fx-background-radius: 50;" text="Exit" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

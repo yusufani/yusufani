@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SplashScreenController">
+   <children>
+      <StackPane prefHeight="494.0" prefWidth="329.0">
+         <children>
+            <Circle fx:id="circle1" fill="#1f93ff00" radius="165.0" stroke="#dc6180" strokeType="INSIDE" strokeWidth="20.0" style="-fx-stroke-dash-array: 150;" />
+            <Circle fx:id="circle2" fill="#1f93ff00" radius="106.0" stroke="#afb1be" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 75;" />
+            <Circle fx:id="circle3" fill="#1f93ff00" radius="49.0" stroke="#1f222e" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 30;" />
+         </children>
+      </StackPane>
+   </children>
+</HBox>
