@@ -1,1 +1,0 @@
-﻿Actionı -2 ile 2 arasında değerler alabilen box tipinde bir nesne

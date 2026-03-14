@@ -1,5 +1,0 @@
-﻿TSNe VE PCA 4 boyuttan 2 boyuta indirgemek 
-x ve y eksenini stateler alıcak noktaları actionlara göre renklendir . 
-Zaman bilgisini noktaları birleştirerek alabilirsin.
-
-Kodu yazan adama nasıl yapabileceğini sor. Duruma göre hareket et 
