@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yusuf%20Ani&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Solution%20Architect%20%7C%20Istanbul&descSize=18&descAlignY=52"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yusuf%20ANI&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Solution%20Architect%20%7C%20Istanbul&descSize=18&descAlignY=52"/>
 
 
 <!-- Typing SVG -->
