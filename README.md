@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yusuf%20Ani&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building%20Agents%20%7C%20AI%20Engineer%20%7C%20Munich&descSize=18&descAlignY=52"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yusuf%20Ani&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Solution%20Architect%20%7C%20Istanbul&descSize=18&descAlignY=52"/>
+
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%A4%96+10x+Professional+Claude+Code+Reviewer;You're+not+the+only+one+cursed+with+knowledge" alt="Typing SVG" /></a>
