@@ -4,7 +4,8 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Yusuf%20Ani&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building%20Agents%20%7C%20AI%20Engineer%20%7C%20Munich&descSize=18&descAlignY=52"/>
 
 <!-- Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%A4%96+AI+%26+ML+Engineer+%7C+Agent+Builder;%F0%9F%8E%93+TUM+Munich+%7C+NLP+%7C+Computer+Vision;%F0%9F%94%A5+From+Turkish+NLP+to+Multimodal+AI" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=%F0%9F%A4%96+AI+Engineer+%7C+Agent+Builder;You're+not+the+only+one+cursed+with+knowledge" alt="Typing SVG" /></a>
+
 
 <br/>
 
