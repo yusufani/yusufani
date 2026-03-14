@@ -21,25 +21,16 @@
 
 ```yaml
 name: Yusuf Ani
-location: Munich, Germany
-current_focus: "Building AI Agents"
+location: Istanbul, Turkey
+current_focus: "  - Building large-scale AI systems with best-fit open source models"
+interests:
+  - End-to-end pipelines for image, text & audio data
+  - Agents
+  - Multimodal AI & Turkish NLP
 
-education:
-  masters: Technical University of Munich (TUM)
-  courses:
-    - Deep Learning
-    - Natural Language Processing
-    - Computer Vision (Detection, Segmentation & Tracking)
-    - Quantum Computing
-    - Visual Data Analytics
 
-research_interests:
-  - Large Language Models & AI Agents
-  - Multimodal AI (CLIP, Vision-Language Models)
-  - Turkish NLP
-  - Reinforcement Learning
+fun_fact: "I was a PyCharm debugger addict long before AI coding was a thing"
 
-fun_fact: "Published TurkishPreprocessor on PyPI before it was cool"
 ```
 
 ---
@@ -50,24 +41,24 @@ fun_fact: "Published TurkishPreprocessor on PyPI before it was cool"
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Julia](https://img.shields.io/badge/Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ### AI / ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-FF6B6B?style=for-the-badge&logo=v&logoColor=white)
+![SGLang](https://img.shields.io/badge/SGLang-00D4AA?style=for-the-badge&logo=lightning&logoColor=white)
+
 
 ### Tools & Infrastructure
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-4F46E5?style=for-the-badge&logo=datadog&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-FF4F64?style=for-the-badge&logo=qdrant&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 </div>
 
