@@ -90,15 +90,8 @@ fun_fact: "I was a PyCharm debugger addict long before AI coding was a thing"
 <a href="https://github.com/yusufani/TrCLIP">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yusufani&repo=TrCLIP&theme=tokyonight&hide_border=true&border_radius=15" />
 </a>
-<a href="https://github.com/yusufani/teacherllm">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yusufani&repo=teacherllm&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
-
-<a href="https://github.com/yusufani/TurkishPreprocessor">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yusufani&repo=TurkishPreprocessor&theme=tokyonight&hide_border=true&border_radius=15" />
-</a>
-<a href="https://github.com/yusufani/TUM_Introduction_to_Deep_Learning">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yusufani&repo=TUM_Introduction_to_Deep_Learning&theme=tokyonight&hide_border=true&border_radius=15" />
+<a href="https://github.com/yusufani/devpulse">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yusufani&repo=devpulse-monitor&theme=tokyonight&hide_border=true&border_radius=15" />
 </a>
 
 </div>
